@@ -1,0 +1,36 @@
+/*
+ * date:	2003-06-29
+ * info:	http://inspire.server101.com/js/mdi/
+ */
+
+
+/* window */
+div.MDI {
+	position: absolute;
+	border: 1px solid #333;
+	background: #EEE;
+}
+/* window title */
+div.MDI h2.titlebar {
+	margin: 0;
+	background: #999;
+	color: #FFF;
+	cursor: default;
+	font-size: 80%;
+	padding: .3em 1em;
+}
+/* content space */
+div.MDI .content {
+	overflow: auto;
+	padding: .3em;
+}
+/* resize handle */
+div.MDI a.resize {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	width: 1em;
+	height: 1em;
+	background: #000;
+	cursor: se-resize;
+}
